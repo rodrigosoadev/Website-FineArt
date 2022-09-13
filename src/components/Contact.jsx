@@ -1,4 +1,5 @@
 import React from 'react'
+import contactImg from '/assets/contact.jpg'
 
 function Contact() {
     return (
@@ -16,7 +17,7 @@ function Contact() {
                     </div>
                     <div className="row">
                         <div className="col-md-6">
-                            <img src="/public/assets/contact.jpg" alt="contact" className='w-75' />
+                            <img src={contactImg} alt="contact" className='w-75' />
                         </div>
                         <div className="col-md-6">
                             <form action="">

@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutImg from '/assets/about1.jpg'
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
         <div className="container my-5 py-5">
             <div className="row">
                 <div className="col-md-6">
-                    <img src="/public/assets/about1.jpg" alt="about" className='w-75 mt-5' />
+                    <img src={AboutImg} alt="about" className='w-75 mt-5' />
                 </div>
                 <div className="col-md-6">
                     <h3 className="fs-5 mb-0">About us</h3>
